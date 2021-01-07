@@ -1,0 +1,20 @@
+name: r-psych
+channels:
+- conda-forge
+- defaults
+- bioconda
+- r
+- anaconda
+dependencies:
+- r-essentials
+- r-vegan
+- r-nhanes
+- r-tidyverse
+- r-readr
+- bioconductor-mosaics
+- r-lock5withr
+- r-fivethirtyeight
+- r-okcupiddata
+- r-lsr
+- r-supernova
+- r-lme4
