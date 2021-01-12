@@ -18,3 +18,4 @@ dependencies:
 - r-lsr
 - r-supernova
 - r-lme4
+- r-magrittr
