@@ -19,3 +19,4 @@ dependencies:
 - r-supernova
 - r-lme4
 - r-magrittr
+- r-mosaiccore
