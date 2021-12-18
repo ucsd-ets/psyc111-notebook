@@ -6,7 +6,7 @@ channels:
 - r
 - anaconda
 dependencies:
-- r-essentials
+- r
 - r-vegan
 - r-nhanes
 - r-tidyverse
@@ -23,3 +23,9 @@ dependencies:
 - r-car
 - r-multcomp
 - r-emmeans
+- r-gridextra
+- r-hmisc
+- r-see
+- r-ggextra
+- r-ggpubr
+- r-broom
