@@ -19,7 +19,6 @@ dependencies:
 - r-supernova
 - r-lme4
 - r-magrittr
-- r-mosaiccore
 - r-car
 - r-multcomp
 - r-emmeans
@@ -30,3 +29,5 @@ dependencies:
 - r-ggpubr
 - r-broom
 - r-irkernel
+- r-terra
+- r-rcpp
