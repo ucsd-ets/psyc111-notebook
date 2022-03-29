@@ -12,7 +12,7 @@ RUN rm -rf /opt/conda/bin/R /opt/conda/lib/R && \
 
 RUN pip install nbconvert==5.6.1
 RUN R -e "install.packages('fivethirtyeightdata', repos ='https://fivethirtyeightdata.github.io/drat/', type = 'source')" && \
-    R -e "install.packages(c('dslabs', 'mosaic', 'raster', 'DT', 'pbapply', 'here', 'palmerpenguins'), repos='http://cran.r-project.org')"
+    R -e "install.packages(c('dslabs', 'mosaic', 'raster', 'DT', 'pbapply', 'here', 'palmerpenguins', 'Hmisc'), repos='http://cran.r-project.org')"
 
 COPY test.R /tmp
 
