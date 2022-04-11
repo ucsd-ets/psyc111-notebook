@@ -31,3 +31,5 @@ dependencies:
 - r-irkernel
 - r-terra
 - r-rcpp
+- r-hmisc
+- r-dt
