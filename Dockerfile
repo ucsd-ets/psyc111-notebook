@@ -2,6 +2,9 @@ FROM ucsdets/datascience-notebook:2022.3-stable
 
 USER root
 
+RUN apt-get update -y && \
+    apt-get install libfontconfig1-dev -y
+ 
 COPY r-psych.yaml /tmp
 
 RUN conda env create --file "/tmp/r-psych.yaml"
