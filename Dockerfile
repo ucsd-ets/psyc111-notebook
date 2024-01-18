@@ -1,4 +1,4 @@
-FROM ucsdets/datascience-notebook:2023.1-stable
+FROM ghcr.io/ucsd-ets/datascience-notebook:2023.4-stable
 
 USER root
 
