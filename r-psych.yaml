@@ -33,3 +33,7 @@ dependencies:
 - r-rcpp
 - r-hmisc
 - r-dt
+- r-rcolorbrewer
+- r-patchwork
+- r-viridis
+- r-colorspace
