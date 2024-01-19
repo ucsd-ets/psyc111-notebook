@@ -8,11 +8,11 @@ channels:
 dependencies:
 - r
 - r-vegan
-- r-nhanes
+- r-NHANES
 - r-tidyverse
 - r-readr
 - bioconductor-mosaics
-- r-lock5withr
+- r-Lock5withR
 - r-fivethirtyeight
 - r-okcupiddata
 - r-lsr
@@ -22,14 +22,15 @@ dependencies:
 - r-car
 - r-multcomp
 - r-emmeans
-- r-gridextra
-- r-hmisc
+- r-gridExtra
+- r-Hmisc
 - r-see
-- r-ggextra
+- r-ggExtra
 - r-ggpubr
 - r-broom
-- r-irkernel
+- r-IRkernel
 - r-terra
-- r-rcpp
-- r-hmisc
-- r-dt
+- r-Rcpp
+- r-DT
+- r-mosaic
+- r-patchwork
